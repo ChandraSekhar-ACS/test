@@ -9,6 +9,6 @@ if __name__ == "__main__":
     gemini_api_key = os.getenv("GEMINI_API_KEY")
 
     if gemini_api_key:
-        print(f"GEMINI_API_KEY: {gemini_api_key}")
+        print("GEMINI_API_KEY loaded.")
     else:
         print("GEMINI_API_KEY not found in environment variables.")
